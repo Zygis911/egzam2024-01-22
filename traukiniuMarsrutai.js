@@ -36,7 +36,7 @@ function destinationFromAtoB(dest) {
   const arrivalTime = +(departureTime + dest.kelionesTrukmeValandomis);
 
   console.log('Marsrutas is miesto' + dest.marsrutas + ' i miesta')
-  console.log('Isvykomo data:', departureDate + "Isvykimo laikas" + departureTime)
+  console.log('Isvykomo data:' + departureDate + "Isvykimo laikas" + departureTime)
   console.log('Keliones trukme' + dest.kelionesTrukmeValandomis);
   console.log(dest.kelionesTrukmeValandomis)
 }
